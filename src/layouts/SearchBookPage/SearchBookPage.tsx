@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { SpinnerLoading } from "../../Utils/SpinnerLoading";
-import BookModel from "../../models/BookModels";
+import BookModel from "../../models/BookModel";
 import { SearchBook } from "./components/SearchBook";
 import { Pagination } from "./components/Pagination";
 import React from "react"

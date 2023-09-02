@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BookModel from "../../models/BookModels";
+import BookModel from "../../models/BookModel";
 import React from "react";
 
 export const CheckoutAndReviewBox: React.FC<{book: BookModel|undefined, mobile: boolean}>  = (props) => {
