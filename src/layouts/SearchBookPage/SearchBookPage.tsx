@@ -3,6 +3,7 @@ import { SpinnerLoading } from "../../Utils/SpinnerLoading";
 import BookModel from "../../models/BookModels";
 import { SearchBook } from "./components/SearchBook";
 import { Pagination } from "./components/Pagination";
+import React from "react"
 
 export const SearchBookPage = () =>{
     const [books, setBooks] = useState<BookModel[]>([]);
